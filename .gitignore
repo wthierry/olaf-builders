@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+._*
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output and temporary files
+build/
+dist/
+tmp/
+temp/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / web tooling
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Embedded / firmware tooling
+.pio/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# 3D modeling app backup/cache files
+*.blend1
+*.blend2
+*.blend@
+*.autosave
+*.tmp
+
+# Slicer output and local machine profiles
+*.gcode
+*.bgcode
+*.3mf.tmp
+*.factory
+
+# Local generated renders
+renders/
+previews/
